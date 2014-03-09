@@ -13,6 +13,7 @@
 
 @button-factor:             0.666666667;
 @padding-factor:            0.5;
+@modal-height-padding:      170px;
 @navbar-height-factor:      0.8;
 @breadcrumb-padding-factor: 0.8;
 
@@ -76,16 +77,34 @@ h6, .h6 {
 }
 .modal-dialog .modal-body {
   overflow-y: auto;
-  @media (min-width: @screen-sm-min) {
-    max-height: (@modal-sm * 0.5);
+  @media (max-height: (@screen-xs-min * 0.7)) {
+    max-height: 10px;
   }
-  @media (min-width: @screen-md-min) {
-    max-height: (@modal-md * 0.5);
+  @media (min-height: (@screen-xs-min * 0.7)) {
+    max-height: (@screen-xs-min * 0.7 - @modal-height-padding);
   }
-  @media (min-width: @screen-lg-min) {
-    max-height: (@modal-lg * 0.5);
+  @media (min-height: ((@screen-xs-min + @screen-sm-min) * 0.35)) {
+    max-height: ((@screen-xs-min + @screen-sm-min) * 0.35 - @modal-height-padding);
   }
-  @media (min-width: (@screen-lg-min * 1.4)) {
-    max-height: (@modal-lg * 0.7);
+  @media (min-height: (@screen-sm-min * 0.7)) {
+    max-height: (@screen-sm-min * 0.7 - @modal-height-padding);
+  }
+  @media (min-height: ((@screen-sm-min + @screen-md-min) * 0.35)) {
+    max-height: ((@screen-sm-min + @screen-md-min) * 0.35 - @modal-height-padding);
+  }
+  @media (min-heihgt: (@screen-md-min * 0.7)) {
+    max-height: (@screen-md-min * 0.7 - @modal-height-padding);
+  }
+  @media (min-height: ((@screen-md-min + @screen-lg-min) * 0.35)) {
+    max-height: ((@screen-md-min + @screen-lg-min) * 0.35 - @modal-height-padding);
+  }
+  @media (min-height: (@screen-lg-min * 0.7)) {
+    max-height: (@screen-lg-min * 0.7 - @modal-height-padding);
+  }
+  @media (min-height: (@screen-lg-min * 0.82)) {
+    max-height: (@screen-lg-min * 0.82 - @modal-height-padding);
+  }
+  @media (min-height: (@screen-lg-min * 0.98)) {
+    max-height: (@screen-lg-min * 0.98 - @modal-height-padding);
   }
 }

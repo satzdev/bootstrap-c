@@ -5822,23 +5822,53 @@ h6,
 .modal-dialog .modal-body {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+@media (max-height: 336px) {
   .modal-dialog .modal-body {
-    max-height: 150px;
+    max-height: 10px;
   }
 }
-@media (min-width: 992px) {
+@media (min-height: 336px) {
   .modal-dialog .modal-body {
-    max-height: 300px;
+    max-height: 166px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-height: 436.8px) {
   .modal-dialog .modal-body {
-    max-height: 450px;
+    max-height: 266.8px;
   }
 }
-@media (min-width: 1680px) {
+@media (min-height: 537.6px) {
   .modal-dialog .modal-body {
-    max-height: 630px;
+    max-height: 367.6px;
+  }
+}
+@media (min-height: 616px) {
+  .modal-dialog .modal-body {
+    max-height: 446px;
+  }
+}
+@media (min-heihgt: 694.4px) {
+  .modal-dialog .modal-body {
+    max-height: 524.4px;
+  }
+}
+@media (min-height: 767.2px) {
+  .modal-dialog .modal-body {
+    max-height: 597.2px;
+  }
+}
+@media (min-height: 840px) {
+  .modal-dialog .modal-body {
+    max-height: 670px;
+  }
+}
+@media (min-height: 984px) {
+  .modal-dialog .modal-body {
+    max-height: 814px;
+  }
+}
+@media (min-height: 1176px) {
+  .modal-dialog .modal-body {
+    max-height: 1006px;
   }
 }
