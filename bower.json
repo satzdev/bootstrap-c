@@ -16,9 +16,18 @@
     "./dist/css/bootstrap-c.css"
   ],
   "ignore": [
-    "**/.*"
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
   ],
   "dependencies": {
     "bootstrap": "3.1.1"
-  }
+  },
+  "description": "A condensed version of bootstrap.",
+  "authors": [
+    "Satz"
+  ],
+  "license": "MIT"
 }
