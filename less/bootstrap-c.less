@@ -1,0 +1,87 @@
+/*!
+ * Bootstrap-c v3.1.1
+ * Copyright 2014 Satz 
+ * Licensed under MIT (https://github.com/satzdev/bootstrap-c/blob/master/LICENSE)
+ */
+
+/*!
+ * Bootstrap v3.1.1 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+@import "../bower_components/bootstrap/less/bootstrap.less";
+
+@button-factor: 0.666666667;
+@padding-factor: 0.5;
+@navbar-height-factor: 0.8;
+@breadcrumb-padding-factor: 0.8;
+
+@padding-base-vertical: (6px * @button-factor);
+@padding-base-horizontal: (12px * @button-factor);
+@padding-large-vertical: (10px * @button-factor);
+@padding-large-horizontal: (16px * @button-factor);
+@padding-small-vertical: (5px * @button-factor);
+@padding-small-horizontal: (10px * @button-factor);
+@padding-xs-vertical: (1px * @button-factor);
+@padding-xs-horizontal: (5px * @button-factor);
+@border-radius-large: 5px;
+@table-cell-padding: (8px * @padding-factor);
+@table-condensed-cell-padding: (5px * @padding-factor);
+@grid-gutter-width: (30px * @padding-factor);
+@navbar-height: (50px * @navbar-height-factor);
+@nav-link-padding: (10px * @padding-factor) (15px * @padding-factor);
+@pager-border-radius: (15px * @padding-factor);
+@jumbotron-padding: (30px * @padding-factor);
+@modal-title-padding: (15px * @padding-factor * 1.5);
+@alert-padding: (15px * @padding-factor);
+@panel-body-padding: (15px * @padding-factor);
+
+@breadcrumb-padding-vertical: (8px * @breadcrumb-padding-factor);
+@breadcrumb-padding-horizontal: (15px * @breadcrumb-padding-factor);
+
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  margin-top: (@line-height-computed * @padding-factor);
+  margin-bottom: (@line-height-computed / 2 * @padding-factor);
+}
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: (@line-height-computed / 2 * @padding-factor);
+  margin-bottom: (@line-height-computed / 2 * @padding-factor);
+}
+.page-header {
+  padding-bottom: ((@line-height-computed / 2 * @padding-factor) - 1);
+  margin: (@line-height-computed * 2 * @padding-factor) 0 (@line-height-computed * @padding-factor);
+}
+.form-group {
+  margin-bottom: (15px * @padding-factor);
+}
+.panel-heading {
+  padding: (@padding-base-vertical * 2) (@padding-base-horizontal * 2);
+}
+.panel-footer {
+  padding: (@padding-base-vertical * 2) (@padding-base-horizontal * 2);
+}
+.panel {
+  margin-bottom: (@line-height-computed * @padding-factor);
+}
+.modal-footer {
+  margin-top: 0;
+}
+.modal-dialog .modal-body {
+  overflow-y: auto;
+  @media (min-width: @screen-sm-min) {
+    max-height: (@modal-sm * 0.5);
+  }
+  @media (min-width: @screen-md-min) {
+    max-height: (@modal-md * 0.5);
+  }
+  @media (min-width: @screen-lg-min) {
+    max-height: (@modal-lg * 0.5);
+  }
+  @media (min-width: (@screen-lg-min * 1.4)) {
+    max-height: (@modal-lg * 0.7);
+  }
+}

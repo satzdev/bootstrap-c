@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-c",
+  "version": "3.1.1",
+  "keywords": [
+    "css",
+    "js",
+    "less",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web",
+    "bootstrap"
+  ],
+  "main": [
+    "./dist/css/bootstrap-c.css"
+  ],
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "bootstrap": "3.1.1"
+  }
+}
