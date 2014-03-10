@@ -12,11 +12,20 @@
 @import "../bower_components/bootstrap/less/bootstrap.less";
 
 @button-factor:             0.666666667;
+@font-scale-factor:         0.666666667;
 @padding-factor:            0.5;
 @modal-height-padding:      170px;
 @navbar-height-factor:      0.8;
 @breadcrumb-padding-factor: 0.8;
 
+@font-size-large:         ceil((@font-size-base * (1.25 * @font-scale-factor + (1 - @font-scale-factor))));
+
+@font-size-h1:            floor((@font-size-base * (2.6 * @font-scale-factor + (1 - @font-scale-factor))));
+@font-size-h2:            floor((@font-size-base * (2.15 * @font-scale-factor + (1 - @font-scale-factor))));
+@font-size-h3:            ceil((@font-size-base * (1.7 * @font-scale-factor + (1 - @font-scale-factor))));
+@font-size-h4:            ceil((@font-size-base * (1.25 * @font-scale-factor + (1 - @font-scale-factor))));
+@font-size-h5:            @font-size-base;
+@blockquote-font-size:      (@font-size-base * (1.25 * @font-scale-factor + (1 - @font-scale-factor)));
 @padding-base-vertical:     (6px * @button-factor);
 @padding-base-horizontal:   (12px * @button-factor);
 @padding-large-vertical:    (10px * @button-factor);
@@ -38,12 +47,20 @@
 @pager-border-radius: (15px * @padding-factor);
 @jumbotron-padding:   (30px * @padding-factor);
 @modal-title-padding: (15px * @padding-factor * 1.5);
+@modal-lg:            800px;
 @alert-padding:       (15px * @padding-factor);
 @panel-body-padding:  (15px * @padding-factor);
 
 @breadcrumb-padding-vertical:   (8px * @breadcrumb-padding-factor);
 @breadcrumb-padding-horizontal: (15px * @breadcrumb-padding-factor);
 
+.lead {
+  font-size: floor((@font-size-base * (1.25 * @font-scale-factor + (1 - @font-scale-factor))));
+
+  @media (min-width: @screen-sm-min) {
+    font-size: (@font-size-base * (1.5 * @font-scale-factor + (1 - @font-scale-factor)));
+  }
+}
 h1, .h1,
 h2, .h2,
 h3, .h3 {
@@ -105,6 +122,6 @@ h6, .h6 {
     max-height: (@screen-lg-min * 0.82 - @modal-height-padding);
   }
   @media (min-height: (@screen-lg-min * 0.98)) {
-    max-height: (@screen-lg-min * 0.98 - @modal-height-padding);
+    max-height: none;
   }
 }
