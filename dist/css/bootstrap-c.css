@@ -4965,74 +4965,74 @@ a.list-group-item-danger.active:focus {
   border-bottom-color: #dddddd;
 }
 .panel-primary {
-  border-color: #428bca;
+  border-color: #3071a9;
 }
 .panel-primary > .panel-heading {
   color: #ffffff;
-  background-color: #428bca;
-  border-color: #428bca;
+  background-color: #357ebd;
+  border-color: #3071a9;
 }
 .panel-primary > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #428bca;
+  border-top-color: #3071a9;
 }
 .panel-primary > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #428bca;
+  border-bottom-color: #3071a9;
 }
 .panel-success {
-  border-color: #5cb85c;
+  border-color: #449d44;
 }
 .panel-success > .panel-heading {
   color: #ffffff;
-  background-color: #5cb85c;
-  border-color: #5cb85c;
+  background-color: #4cae4c;
+  border-color: #449d44;
 }
 .panel-success > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #5cb85c;
+  border-top-color: #449d44;
 }
 .panel-success > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #5cb85c;
+  border-bottom-color: #449d44;
 }
 .panel-info {
-  border-color: #5bc0de;
+  border-color: #31b0d5;
 }
 .panel-info > .panel-heading {
   color: #ffffff;
-  background-color: #5bc0de;
-  border-color: #5bc0de;
+  background-color: #46b8da;
+  border-color: #31b0d5;
 }
 .panel-info > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #5bc0de;
+  border-top-color: #31b0d5;
 }
 .panel-info > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #5bc0de;
+  border-bottom-color: #31b0d5;
 }
 .panel-warning {
-  border-color: #f0ad4e;
+  border-color: #ec971f;
 }
 .panel-warning > .panel-heading {
   color: #ffffff;
-  background-color: #f0ad4e;
-  border-color: #f0ad4e;
+  background-color: #eea236;
+  border-color: #ec971f;
 }
 .panel-warning > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #f0ad4e;
+  border-top-color: #ec971f;
 }
 .panel-warning > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #f0ad4e;
+  border-bottom-color: #ec971f;
 }
 .panel-danger {
-  border-color: #d9534f;
+  border-color: #c9302c;
 }
 .panel-danger > .panel-heading {
   color: #ffffff;
-  background-color: #d9534f;
-  border-color: #d9534f;
+  background-color: #d43f3a;
+  border-color: #c9302c;
 }
 .panel-danger > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #d9534f;
+  border-top-color: #c9302c;
 }
 .panel-danger > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #d9534f;
+  border-bottom-color: #c9302c;
 }
 .well {
   min-height: 20px;
