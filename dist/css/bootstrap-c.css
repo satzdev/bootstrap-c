@@ -4979,60 +4979,60 @@ a.list-group-item-danger.active:focus {
   border-bottom-color: #428bca;
 }
 .panel-success {
-  border-color: #65af65;
+  border-color: #53ad53;
 }
 .panel-success > .panel-heading {
   color: #ffffff;
-  background-color: #65af65;
-  border-color: #65af65;
+  background-color: #53ad53;
+  border-color: #53ad53;
 }
 .panel-success > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #65af65;
+  border-top-color: #53ad53;
 }
 .panel-success > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #65af65;
+  border-bottom-color: #53ad53;
 }
 .panel-info {
-  border-color: #63bcd6;
+  border-color: #43aece;
 }
 .panel-info > .panel-heading {
   color: #ffffff;
-  background-color: #63bcd6;
-  border-color: #63bcd6;
+  background-color: #43aece;
+  border-color: #43aece;
 }
 .panel-info > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #63bcd6;
+  border-top-color: #43aece;
 }
 .panel-info > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #63bcd6;
+  border-bottom-color: #43aece;
 }
 .panel-warning {
-  border-color: #e1aa5d;
+  border-color: #e0952b;
 }
 .panel-warning > .panel-heading {
   color: #ffffff;
-  background-color: #e1aa5d;
-  border-color: #e1aa5d;
+  background-color: #e0952b;
+  border-color: #e0952b;
 }
 .panel-warning > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #e1aa5d;
+  border-top-color: #e0952b;
 }
 .panel-warning > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #e1aa5d;
+  border-bottom-color: #e0952b;
 }
 .panel-danger {
-  border-color: #c86360;
+  border-color: #c83c38;
 }
 .panel-danger > .panel-heading {
   color: #ffffff;
-  background-color: #c86360;
-  border-color: #c86360;
+  background-color: #c83c38;
+  border-color: #c83c38;
 }
 .panel-danger > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #c86360;
+  border-top-color: #c83c38;
 }
 .panel-danger > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #c86360;
+  border-bottom-color: #c83c38;
 }
 .well {
   min-height: 20px;
