@@ -83,17 +83,17 @@ h1, .h1,
 h2, .h2,
 h3, .h3 {
   margin-top: (@line-height-computed * @padding-factor);
-  margin-bottom: (@line-height-computed / 2 * @padding-factor);
+  margin-bottom: (@line-height-computed / 2 * @padding-factor) * 1.2;
 }
 h4, .h4,
 h5, .h5,
 h6, .h6 {
   margin-top: (@line-height-computed / 2 * @padding-factor);
-  margin-bottom: (@line-height-computed / 2 * @padding-factor);
+  margin-bottom: (@line-height-computed / 2 * @padding-factor) * 1.2;
 }
 .page-header {
   padding-bottom: ((@line-height-computed / 2 * @padding-factor) - 1);
-  margin: (@line-height-computed * 2 * @padding-factor) 0 (@line-height-computed * @padding-factor);
+  margin: (@line-height-computed * 2 * @padding-factor) 0 (@line-height-computed * @padding-factor * 1.2);
 }
 .form-group {
   margin-bottom: (15px * @padding-factor);
@@ -117,6 +117,10 @@ h6, .h6 {
   }
   .panel-body {
     padding: (@panel-body-padding * 0.75);
+  }
+  .panel-title {
+    font-size: @font-size-base;
+    font-weight: bold;
   }
 }
 .panel.panel-sm {
