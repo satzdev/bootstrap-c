@@ -5145,9 +5145,9 @@ button.close {
   filter: alpha(opacity=50);
 }
 .modal-header {
-  padding: 11.25px;
+  padding: 15px;
   border-bottom: 1px solid #e5e5e5;
-  min-height: 12.67857143px;
+  min-height: 16.42857143px;
 }
 .modal-header .close {
   margin-top: -2px;
@@ -5158,11 +5158,11 @@ button.close {
 }
 .modal-body {
   position: relative;
-  padding: 20px;
+  padding: 15px;
 }
 .modal-footer {
   margin-top: 15px;
-  padding: 19px 20px 20px;
+  padding: 14px 15px 15px;
   text-align: right;
   border-top: 1px solid #e5e5e5;
 }
@@ -5839,6 +5839,12 @@ h6,
 }
 .panel.panel-sm {
   margin-bottom: 7.5px;
+}
+.modal-header {
+  padding: 11.25px 15px 10.25px;
+}
+.modal-body {
+  padding: 11.25px 15px;
 }
 .modal-footer {
   margin-top: 0;

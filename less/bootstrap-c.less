@@ -45,11 +45,12 @@
 @navbar-margin-bottom:  (@line-height-computed * @padding-factor);
 @nav-link-padding:      (10px * @padding-factor) (15px * @padding-factor);
 
-@pager-border-radius: (15px * @padding-factor);
-@jumbotron-padding:   (30px * @padding-factor);
-@modal-title-padding: (15px * @padding-factor * 1.5);
-@modal-lg:            800px;
-@alert-padding:       (15px * @padding-factor);
+@pager-border-radius:          (15px * @padding-factor);
+@jumbotron-padding:            (30px * @padding-factor);
+@modal-inner-padding:          (20px * @panel-padding-factor);
+@modal-inner-vertical-padding: (15px * @panel-padding-factor);
+@modal-lg:                     800px;
+@alert-padding:                (15px * @padding-factor);
 
 @panel-body-padding:  (15px * @panel-padding-factor);
 
@@ -127,6 +128,12 @@ h6, .h6 {
   margin-bottom: (@line-height-computed * @padding-factor * 0.75);
 }
 
+.modal-header {
+  padding: @modal-inner-vertical-padding @modal-inner-padding (@modal-inner-vertical-padding - 1);
+}
+.modal-body {
+  padding: @modal-inner-vertical-padding @modal-inner-padding;
+}
 .modal-footer {
   margin-top: 0;
 }
