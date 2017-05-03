@@ -7064,7 +7064,7 @@ button.close {
   filter: alpha(opacity=50);
 }
 .modal-header {
-  padding: 15px;
+  padding: 11.25px;
   border-bottom: 1px solid #e5e5e5;
 }
 .modal-header .close {
@@ -7076,10 +7076,10 @@ button.close {
 }
 .modal-body {
   position: relative;
-  padding: 15px;
+  padding: 11.25px;
 }
 .modal-footer {
-  padding: 15px;
+  padding: 11.25px;
   text-align: right;
   border-top: 1px solid #e5e5e5;
 }
@@ -7942,10 +7942,10 @@ h6,
   margin-bottom: 9px;
 }
 .modal-header {
-  padding: 11.25px 15px 10.25px;
+  padding: 11.25px 11.25px 10.25px;
 }
 .modal-body {
-  padding: 11.25px 15px;
+  padding: 11.25px 11.25px;
 }
 .modal-footer {
   margin-top: 0;
