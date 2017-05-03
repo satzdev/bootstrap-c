@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-c",
-  "version": "3.1.1",
+  "version": "3.3.7",
   "keywords": [
     "css",
     "js",
@@ -23,7 +23,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "3.1.1"
+    "bootstrap": "3.3.7"
   },
   "description": "A condensed version of bootstrap.",
   "authors": [
